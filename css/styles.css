@@ -1,0 +1,26 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2em;
+}
+
+#studentId{
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#imgTitle{
+    margin-bottom: 3px;
+}
+#author{
+    margin-top: 3px;
+}
+
+#apodImg{
+    width: 80%;
+    height: 80%;
+}
