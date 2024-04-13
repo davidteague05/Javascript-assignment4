@@ -2,7 +2,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: 2em;
 }
-
+h1{
+    display: flex;
+    justify-content: center;
+}
+#topOfPage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 #studentId{
     visibility: hidden;
 }
