@@ -14,12 +14,14 @@ body{
 
 }
 #imgTitle{
-    margin-bottom: 3px;
+    margin: 5px;
 }
 #author{
-    margin-top: 3px;
+    margin: 5px;
 }
-
+#dateDisplay{
+    margin: 5px;
+}
 #apodImg{
     width: 50%;
     height: 50%;

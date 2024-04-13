@@ -6,6 +6,7 @@ const imgTitle = document.querySelector('#imgTitle');
 const author = document.querySelector('#author');
 const explanation = document.querySelector("#explanation");
 const id = document.querySelector('#studentId');
+const dateDisplay = document.querySelector('#dateDisplay');
 date.addEventListener('change', changeDate);
 
 function changeDate(event){
@@ -22,6 +23,7 @@ function displayApod(json){
     console.log(json);
     imgTitle.textContent = json.title;
     author.textContent = `by ${json.copyright}`;
+    dateDisplay.textContent = `${json.date}`
     explanation.textContent = json.explanation;
     img.src = json.hdurl;
     if (json.code === 400){
